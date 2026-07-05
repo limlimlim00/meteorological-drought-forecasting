@@ -1,0 +1,24 @@
+name: drought_xai
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.5.1
+  - pytorch-cuda=12.4
+  - numpy=2.2.5
+  - pandas=2.3.3
+  - matplotlib=3.10.8
+  - seaborn=0.13.2
+  - scipy=1.15.3
+  - scikit-learn=1.7.2
+  - openpyxl=3.1.5
+  - ipykernel
+  - jupyter_client
+  - jupyter_core
+  - pip
+  - pip:
+      - shap==0.46.0
+      - tqdm==4.67.3
